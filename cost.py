@@ -22,7 +22,7 @@ def rental_car_cost(days):
 def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city) + spending_money
 
-%%% this is a test %%%
+""" this is a test """
 while True:
   a = int(input("nb of days: "))
   b = int(input("extra costs $: "))
